@@ -1,0 +1,41 @@
+[0.784s] Invoking command in '/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/src/lab1_pkg': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/prefix_override:/home/trvise/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build install --record /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[0.917s] /home/trvise/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.917s]   warnings.warn(msg)
+[1.023s] running egg_info
+[1.040s] creating ../../build/lab1_pkg/lab1_pkg.egg-info
+[1.040s] writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO
+[1.040s] writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt
+[1.040s] writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt
+[1.041s] writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt
+[1.041s] writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt
+[1.041s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[1.077s] reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[1.078s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[1.078s] running build
+[1.078s] running build_py
+[1.078s] creating /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg
+[1.078s] copying lab1_pkg/relay.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg
+[1.078s] copying lab1_pkg/__init__.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg
+[1.078s] copying lab1_pkg/talker.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg
+[1.078s] running install
+[1.083s] running install_lib
+[1.101s] creating /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg
+[1.101s] copying /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg/relay.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg
+[1.101s] copying /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg/__init__.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg
+[1.101s] copying /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg/talker.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg
+[1.101s] byte-compiling /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg/relay.py to relay.cpython-312.pyc
+[1.102s] byte-compiling /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg/__init__.py to __init__.cpython-312.pyc
+[1.102s] byte-compiling /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg/talker.py to talker.cpython-312.pyc
+[1.102s] running install_data
+[1.103s] creating /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/packages
+[1.103s] copying resource/lab1_pkg -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/share/ament_index/resource_index/packages
+[1.103s] copying package.xml -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/share/lab1_pkg
+[1.103s] creating /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/share/lab1_pkg/launch
+[1.103s] copying launch/lab1_launch.py -> /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/share/lab1_pkg/launch
+[1.103s] running install_egg_info
+[1.123s] Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages/lab1_pkg-0.0.0-py3.12.egg-info
+[1.124s] running install_scripts
+[1.230s] Installing relay script to /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/lab1_pkg
+[1.230s] Installing talker script to /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/lab1_pkg
+[1.231s] writing list of installed files to '/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/install.log'
+[1.252s] Invoked command in '/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/src/lab1_pkg' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/prefix_override:/home/trvise/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/install/lab1_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/build install --record /home/trvise/CS498-Team_Robotics/Lab -1/lab1_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
