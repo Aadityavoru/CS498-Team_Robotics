@@ -18,6 +18,3 @@ The safety node:
 ros2 run safety_node safety_node.py
 ```
 
-## Video
-
-[Add your demo video showing the car braking before hitting a wall]
