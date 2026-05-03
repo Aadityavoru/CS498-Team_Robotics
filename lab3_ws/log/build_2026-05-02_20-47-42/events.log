@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000498] (lab3) JobQueued: {'identifier': 'lab3', 'dependencies': OrderedDict()}
+[0.000525] (lab3) JobStarted: {'identifier': 'lab3'}
+[0.099850] (-) TimerEvent: {}
+[0.200340] (-) TimerEvent: {}
+[0.300913] (-) TimerEvent: {}
+[0.401172] (-) TimerEvent: {}
+[0.501397] (-) TimerEvent: {}
+[0.601607] (-) TimerEvent: {}
+[0.701829] (-) TimerEvent: {}
+[0.786336] (lab3) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/build', '--no-deps', 'symlink_data'], 'cwd': '/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/trvise', 'CONDA_PROMPT_MODIFIER': '(base)', 'USER': 'trvise', 'VSCODE_NLS_CONFIG': '{"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/antigravity/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'ZED_LIBRARY_DIRS': '/usr/local/zed/lib', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/lib:/usr/local/zed/lib:', 'HOME': '/home/trvise', 'CHROME_DESKTOP': 'antigravity.desktop', 'CONDA_SHLVL': '1', 'OLDPWD': '/home/trvise/CS498-Team_Robotics/lab3_ws', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/trvise/.nvm/versions/node/v24.15.0/bin', 'NVM_INC': '/home/trvise/.nvm/versions/node/v24.15.0/include/node', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-f099f859-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'MANAGERPID': '2593', 'SYSTEMD_EXEC_PID': '3134', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_CE_M': '', '_CONDA_ROOT': '/home/trvise/anaconda3', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9191', 'NVM_DIR': '/home/trvise/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'trvise', 'JOURNAL_STREAM': '9:32844', '_': '/home/trvise/.local/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'trvise', 'TERM': 'dumb', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'ANTIGRAVITY_EDITOR_APP_ROOT': '/usr/share/antigravity/resources/app', 'PATH': '/home/trvise/.local/bin:/home/trvise/.nvm/versions/node/v24.15.0/bin:/home/trvise/.npm-global/bin:/home/trvise/anaconda3/bin:/home/trvise/anaconda3/condabin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/trvise/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Trvise:@/tmp/.ICE-unix/3068,unix/Trvise:/tmp/.ICE-unix/3068', 'INVOCATION_ID': 'e0c08ea6aa7e43d29271b54dee1f9e8e', 'PROJ_NETWORK': 'ON', 'XDG_MENU_PREFIX': 'gnome-', 'PROJ_DATA': '/home/trvise/anaconda3/share/proj', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': '', 'SBX_CHROME_API_RQ': '1', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XML_CATALOG_FILES': 'file:///home/trvise/anaconda3/etc/xml/catalog file:///etc/xml/catalog', 'GSETTINGS_SCHEMA_DIR': '/home/trvise/anaconda3/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/trvise/anaconda3/bin/python', 'SHELL': '/bin/bash', 'ZED_INCLUDE_DIRS': '/usr/local/zed/include', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'base', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', '_CONDA_EXE': '/home/trvise/anaconda3/bin/conda', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ANTIGRAVITY_TRAJECTORY_ID': 'b4e58e9b-0710-4442-90b1-b489f47450c4', 'PWD': '/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/trvise/anaconda3/bin/conda', 'VSCODE_CODE_CACHE_PATH': '/home/trvise/.config/Antigravity/CachedData/15487b3041e65228cae24980a3f796c905ef582c', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/trvise/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ZED_SDK_ROOT_DIR': '/usr/local/zed', 'PYTHONPATH': '/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/prefix_override:/home/trvise/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'CONDA_PREFIX': '/home/trvise/anaconda3', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'VSCODE_PID': '9191'}, 'shell': False}
+[0.801894] (-) TimerEvent: {}
+[0.894125] (lab3) StderrLine: {'line': b'/home/trvise/.local/lib/python3.12/site-packages/setuptools/dist.py:493: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.894326] (lab3) StderrLine: {'line': b'!!\n'}
+[0.894396] (lab3) StderrLine: {'line': b'\n'}
+[0.894459] (lab3) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.894520] (lab3) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.894580] (lab3) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.894639] (lab3) StderrLine: {'line': b'\n'}
+[0.894697] (lab3) StderrLine: {'line': b'        This deprecation is overdue, please update your project and remove deprecated\n'}
+[0.894762] (lab3) StderrLine: {'line': b'        calls to avoid build errors in the future.\n'}
+[0.894821] (lab3) StderrLine: {'line': b'\n'}
+[0.894880] (lab3) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.894952] (lab3) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.895011] (lab3) StderrLine: {'line': b'\n'}
+[0.895057] (lab3) StderrLine: {'line': b'!!\n'}
+[0.895107] (lab3) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.901961] (-) TimerEvent: {}
+[0.911548] (lab3) StderrLine: {'line': b"/home/trvise/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.911625] (lab3) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[1.002053] (-) TimerEvent: {}
+[1.048794] (lab3) StdoutLine: {'line': b'running develop\n'}
+[1.102138] (-) TimerEvent: {}
+[1.202994] (-) TimerEvent: {}
+[1.279060] (lab3) StdoutLine: {'line': b'running egg_info\n'}
+[1.303111] (-) TimerEvent: {}
+[1.304250] (lab3) StdoutLine: {'line': b'creating lab3.egg-info\n'}
+[1.304772] (lab3) StdoutLine: {'line': b'writing lab3.egg-info/PKG-INFO\n'}
+[1.304958] (lab3) StdoutLine: {'line': b'writing dependency_links to lab3.egg-info/dependency_links.txt\n'}
+[1.305174] (lab3) StdoutLine: {'line': b'writing entry points to lab3.egg-info/entry_points.txt\n'}
+[1.305395] (lab3) StdoutLine: {'line': b'writing requirements to lab3.egg-info/requires.txt\n'}
+[1.305549] (lab3) StdoutLine: {'line': b'writing top-level names to lab3.egg-info/top_level.txt\n'}
+[1.305751] (lab3) StdoutLine: {'line': b"writing manifest file 'lab3.egg-info/SOURCES.txt'\n"}
+[1.360862] (lab3) StdoutLine: {'line': b"reading manifest file 'lab3.egg-info/SOURCES.txt'\n"}
+[1.362118] (lab3) StdoutLine: {'line': b"writing manifest file 'lab3.egg-info/SOURCES.txt'\n"}
+[1.403202] (-) TimerEvent: {}
+[1.441617] (lab3) StdoutLine: {'line': b'running build_ext\n'}
+[1.442537] (lab3) StdoutLine: {'line': b'Creating /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/python3.12/site-packages/lab3.egg-link (link to .)\n'}
+[1.443674] (lab3) StdoutLine: {'line': b'Installing ball_attached_frame script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3\n'}
+[1.444584] (lab3) StdoutLine: {'line': b'Installing ball_publisher script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3\n'}
+[1.445163] (lab3) StdoutLine: {'line': b'Installing listener_node script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3\n'}
+[1.445266] (lab3) StdoutLine: {'line': b'\n'}
+[1.445578] (lab3) StdoutLine: {'line': b'Installed /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3\n'}
+[1.445828] (lab3) StdoutLine: {'line': b'running symlink_data\n'}
+[1.446236] (lab3) StdoutLine: {'line': b'creating /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/share/ament_index/resource_index/packages\n'}
+[1.446659] (lab3) StdoutLine: {'line': b'symbolically linking /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/resource/lab3 -> /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/share/ament_index/resource_index/packages\n'}
+[1.447034] (lab3) StdoutLine: {'line': b'symbolically linking /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/package.xml -> /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/share/lab3\n'}
+[1.503996] (-) TimerEvent: {}
+[1.513542] (lab3) CommandEnded: {'returncode': 0}
+[1.543847] (lab3) JobEnded: {'identifier': 'lab3', 'rc': 0}
+[1.547336] (-) EventReactorShutdown: {}

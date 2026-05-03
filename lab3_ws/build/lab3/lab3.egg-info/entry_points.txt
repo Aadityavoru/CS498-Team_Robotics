@@ -1,0 +1,4 @@
+[console_scripts]
+ball_attached_frame = lab3.ball_attached_frame:main
+ball_publisher = lab3.ball_publisher:main
+listener_node = lab3.listener_node:main

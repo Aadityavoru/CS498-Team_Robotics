@@ -1,0 +1,36 @@
+[0.649s] Invoking command in '/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/prefix_override:/home/trvise/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/build --no-deps symlink_data
+[0.760s] /home/trvise/.local/lib/python3.12/site-packages/setuptools/dist.py:493: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.760s] !!
+[0.760s] 
+[0.760s]         ********************************************************************************
+[0.760s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.760s]         versions. Please use the underscore name 'script_dir' instead.
+[0.760s] 
+[0.760s]         This deprecation is overdue, please update your project and remove deprecated
+[0.760s]         calls to avoid build errors in the future.
+[0.760s] 
+[0.760s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.761s]         ********************************************************************************
+[0.761s] 
+[0.761s] !!
+[0.761s]   opt = self.warn_dash_deprecation(opt, section)
+[0.780s] /home/trvise/.local/lib/python3.12/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.780s]   warnings.warn(msg)
+[0.918s] running develop
+[1.091s] running egg_info
+[1.107s] writing lab3.egg-info/PKG-INFO
+[1.107s] writing dependency_links to lab3.egg-info/dependency_links.txt
+[1.108s] writing entry points to lab3.egg-info/entry_points.txt
+[1.108s] writing requirements to lab3.egg-info/requires.txt
+[1.108s] writing top-level names to lab3.egg-info/top_level.txt
+[1.142s] reading manifest file 'lab3.egg-info/SOURCES.txt'
+[1.143s] writing manifest file 'lab3.egg-info/SOURCES.txt'
+[1.192s] running build_ext
+[1.192s] Creating /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/python3.12/site-packages/lab3.egg-link (link to .)
+[1.193s] Installing ball_attached_frame script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3
+[1.193s] Installing ball_publisher script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3
+[1.193s] Installing listener_node script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3
+[1.193s] 
+[1.194s] Installed /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3
+[1.194s] running symlink_data
+[1.233s] Invoked command in '/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3' returned '0': CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/prefix_override:/home/trvise/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/build --no-deps symlink_data

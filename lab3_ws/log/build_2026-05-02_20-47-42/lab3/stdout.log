@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating lab3.egg-info
+writing lab3.egg-info/PKG-INFO
+writing dependency_links to lab3.egg-info/dependency_links.txt
+writing entry points to lab3.egg-info/entry_points.txt
+writing requirements to lab3.egg-info/requires.txt
+writing top-level names to lab3.egg-info/top_level.txt
+writing manifest file 'lab3.egg-info/SOURCES.txt'
+reading manifest file 'lab3.egg-info/SOURCES.txt'
+writing manifest file 'lab3.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/python3.12/site-packages/lab3.egg-link (link to .)
+Installing ball_attached_frame script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3
+Installing ball_publisher script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3
+Installing listener_node script to /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/lib/lab3
+
+Installed /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3
+running symlink_data
+creating /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/share/ament_index/resource_index/packages
+symbolically linking /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/resource/lab3 -> /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/share/ament_index/resource_index/packages
+symbolically linking /home/trvise/CS498-Team_Robotics/lab3_ws/build/lab3/package.xml -> /home/trvise/CS498-Team_Robotics/lab3_ws/install/lab3/share/lab3
